@@ -1,0 +1,35 @@
+{
+  "name": "projectarena-zadatak-bez-backend",
+  "version": "1.0.0",
+  "description": "This is Flutter Project for Project Arena internship test. We were supposed to create frontend for basic Doctor application. Application is supposed to have simple login and home screen.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArrowBiH/ProjectArena-zadatak-bez-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArrowBiH/ProjectArena-zadatak-bez-backend/issues"
+  },
+  "homepage": "https://github.com/ArrowBiH/ProjectArena-zadatak-bez-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "brcypt": "^1.0.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "vcryptjs": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
